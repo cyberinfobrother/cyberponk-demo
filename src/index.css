@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --color-cyber-bg: #090f18;
+  --color-cyber-surface: #0f1a28;
+  --color-cyber-card: #132236;
+  --color-cyber-border: #1e334d;
+  --color-cyber-green: #00ff66;
+  --color-cyber-green-dark: #05df72;
+  --color-cyber-cyan: #00e5ff;
+  --color-cyber-text-dim: #7f99b2;
+}
+
+body {
+  background-color: #080e17;
+  color: #f1f5f9;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Subtle scanlines effect that honors reduced-motion */
+@media (prefers-reduced-motion: no-preference) {
+  .cyber-scanlines {
+    background: linear-gradient(
+      rgba(18, 16, 16, 0) 50%,
+      rgba(0, 0, 0, 0.25) 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Cybersecurity Day: Cipher Challenge",
+  "description": "Crack the code. Learn the tip. Stay safe online. An interactive cyber-operations cipher mini-game with 5 rounds and a sudden-death bonus challenge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
